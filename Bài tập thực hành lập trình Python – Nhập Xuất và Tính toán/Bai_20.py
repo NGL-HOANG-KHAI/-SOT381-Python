@@ -1,0 +1,10 @@
+a = float(input("Nhập a: "))
+b = float(input("Nhập b: "))
+
+print("Tổng =", a + b)
+print("Hiệu =", a - b)
+print("Tích =", a * b)
+print("Thương =", a / b)
+print("Lũy thừa a^b =", a ** b)
+print("Phần nguyên =", a // b)
+print("Phần dư =", a % b)
