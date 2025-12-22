@@ -1,4 +1,5 @@
-for i in range(5):
-    if i == 2:
-        continue
-   
+
+def a(so):
+    ket_qua = so ** 2
+    return ket_qua
+print(ket_qua)

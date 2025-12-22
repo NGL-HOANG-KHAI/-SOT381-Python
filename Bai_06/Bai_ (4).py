@@ -1,6 +1,10 @@
-n = int(input("Nhập số : "))
+n = int(input("Nhập số n : "))
 tong = 0
-for i in range(1 , n + 1):
-    tong = tong + i
-    print(f"+ Thêm {i} -> tổng : {tong}")
-print(f"Kết quả : 1 + 2 + ... + {n} = {tong}")
+for i in range(1 , n):
+    if n % i == 0:
+        tong += i
+
+if tong == n :
+    print(f"{n} là số hoàn hảo")
+else:
+    print(f"{n} không phải là số hoàn hảo")
